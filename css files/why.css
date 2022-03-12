@@ -1,0 +1,67 @@
+.why-container {
+    max-width: 1000px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.why-card {
+    position: relative;
+    margin: 20px 15px;
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    transform-style: preserve-3d;
+    transform: perspective(2000px);
+    box-shadow: inset 300px 0 50px rgba(0, 0, 0, .5), 0 20px 20px rgba(0, 0, 0, .5);
+    transition: 1s;
+}
+
+.why-card:hover {
+    cursor: pointer;
+    z-index: 10000;
+    transform: perspective(2000px) rotate(-10deg);
+    box-shadow: inset 20px 0 50px rgba(0, 0, 0, .5), 0 10px 100px rgba(0, 0, 0, .5);
+}
+
+.why-card .why-Box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    position: relative;
+    transform-origin: left;
+    z-index: 1;
+    transition: 1s cubic-bezier(.15, 1.7, .84, .58);
+    background: #111;
+}
+
+.why-card .why-Box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.why-card:hover .why-Box {
+    transform: rotateY(-135deg);
+}
+
+.why-card .why-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 1000px) {
+    .why-hide {
+        display: none;
+    }
+}

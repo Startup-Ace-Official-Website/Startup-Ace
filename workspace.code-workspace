@@ -1,0 +1,11 @@
+{
+    "folders": [
+		{
+			"name": "slideshow",
+			"path": "."
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "slideshow"
+    }
+}

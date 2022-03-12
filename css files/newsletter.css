@@ -1,0 +1,57 @@
+section.newsletter-bg {
+    padding: 10px;
+    background-image: url(/images/background2.png);
+    background-size: cover;
+}
+
+#footer1 .footer-newsletter {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+#footer1 .footer-newsletter h1 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    color: #3a394e;
+}
+
+#footer1 .footer-newsletter h1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #1236ab;
+    top: 2rem;
+    left: calc(50% - 30px);
+}
+
+#footer1 .footer-newsletter form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.subscribe-btn {
+    margin-top: 10px;
+    background-color: #ffce32!important;
+    color: #111;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    border-radius: .25rem;
+    padding: 0.6rem 1.3rem!important;
+}
+
+.subscribe-btn:hover {
+    box-shadow: 4px 4px 4px 0px #DADCDD;
+    transition: 0.5 ease-in-out;
+}
