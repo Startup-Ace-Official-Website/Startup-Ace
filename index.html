@@ -22,6 +22,10 @@
 
 </head>
 <style>
+    html {
+        scroll-behavior: smooth;
+    }
+    
     .section-title1 {
         text-align: left;
         float: left;
@@ -93,13 +97,17 @@
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active mr-5">
-                            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#About_Us">About <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active mr-5">
-                            <a class="nav-link" href="#">Services <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#Our_Services">Services <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item active mr-5">
-                            <a class="nav-link" href="#">Contact Us <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="#blog">Blogs <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item active mr-5">
+                            <a class="nav-link" href="#Contact_Us">Contact Us <span class="sr-only">(current)</span></a>
                         </li>
                     </ul>
                 </div>
@@ -121,12 +129,12 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div>
-                        <img src="/assets/images/bg.jpeg" alt="" style="height: 800px;width: 100%;">
+                        <img src="/assets/images/bg.jpeg" alt="" style="height: 900px;width: 100%;">
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div>
-                        <img src="/assets/images/bg.jpeg" alt="" style="height: 800px;width: 100%;">
+                        <img src="/assets/images/bg.jpeg" alt="" style="height: 900px;width: 100%;">
                         <div class="carousel-caption" style="font-size: 50px;color: #111; padding: 80px 0;">
                             <h5 style="font-size: 100px;">BUSINESS CONSULTING</h5>
                             <p>GET THE BEST BUSINESS MODEL TO START A BUSINESS</p>
@@ -136,7 +144,7 @@
                 </div>
                 <div class="carousel-item">
                     <div>
-                        <img src="/assets/images/bg.jpeg" alt="" style="height: 800px;width: 100%;">
+                        <img src="/assets/images/bg.jpeg" alt="" style="height: 900px;width: 100%;">
                         <div class="carousel-caption d-none d-md-block" style="font-size: 50px;color: #111; padding: 80px 0;">
                             <h5 style="font-size: 100px;">BRAND AND MARKETING</h5>
                             <p>BUILD YOUR OWN BRAND IN YOUR MARKET COMPETITION</p>
@@ -145,7 +153,7 @@
                 </div>
                 <div class="carousel-item">
                     <div>
-                        <img src="/assets/images/bg.jpeg" alt="" style="height: 800px;width: 100%;">
+                        <img src="/assets/images/bg.jpeg" alt="" style="height: 900px;width: 100%;">
                         <div class="carousel-caption d-none d-md-block" style="font-size: 50px;color: #111; padding: 80px 0;">
                             <h5 style="font-size: 100px;">BUILD A TEAM</h5>
                             <p>GET AN ENTERPRENEUR MINDED TEAM OF PROFESSIONALS FOR YOUR BUSINESS GROWTH</p>
@@ -154,7 +162,7 @@
                 </div>
                 <div class="carousel-item">
                     <div>
-                        <img src="/assets/images/bg.jpeg" alt="" style="height: 800px;width: 100%;">
+                        <img src="/assets/images/bg.jpeg" alt="" style="height: 900px;width: 100%;">
                         <div class="carousel-caption d-none d-md-block" style="font-size: 50px;color: #111; padding: 80px 0;">
                             <h5 style="font-size: 100px;">GENERATE SALES</h5>
                             <p>IMPROVE YOUR SALES STAY AHEAD AND STAND APART FROM THE MARKET COMPETITORS</p>
@@ -164,7 +172,8 @@
             </div>
         </div>
     </div>
-    <div>
+    <div id="About_Us">
+        <div style="height: 80px;"></div>
         <div class="section-title1">
             <p>About Us?</p>
             <h1>About Us?</h1>
@@ -274,7 +283,8 @@
             </div>
         </div>
     </div>
-    <div>
+    <div id="Our_Services">
+        <div style="height: 80px;"></div>
         <div class="section-title1">
             <p>Our Services</p>
             <h1>Our Services</h1>
@@ -403,6 +413,7 @@
     <!--blogs-->
     <!-- blog section  -->
     <section id="blog">
+        <div style="height: 80px;"></div>
         <div class="section-title1">
             <p>Our Blogs</p>
             <h1>Our Blogs</h1>
@@ -473,30 +484,31 @@
     </section>
     <!-- blog section end  -->
     <!--newsletter-->
-    <section class="newsletter-bg">
-        <div id="footer1">
-            <div class="footer-newsletter">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6">
-                            <h1>Join Our Newsletter</h1>
-                            <p>Subscribe to our newsletter to get latest updates</p>
-                            <!-- <form  class="email-form" method="post"> -->
-                            <div class="form">
-                                <input type="email" class="form-control" name="email" id="mail" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                                <!--<input id="mail" type="email" name="email"> -->
-                                <!-- <input type="submit" value="Subscribe"> -->
-                                <button type="submit" class="subscribe-btn">Subscribe</button>
-                            </div>
+    <div id="Contact_Us">
+        <section class="newsletter-bg">
+            <div id="footer1">
+                <div class="footer-newsletter">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6">
+                                <h1>Join Our Newsletter</h1>
+                                <p>Subscribe to our newsletter to get latest updates</p>
+                                <!-- <form  class="email-form" method="post"> -->
+                                <div class="form">
+                                    <input type="email" class="form-control" name="email" id="mail" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                                    <!--<input id="mail" type="email" name="email"> -->
+                                    <!-- <input type="submit" value="Subscribe"> -->
+                                    <button type="submit" class="subscribe-btn">Subscribe</button>
+                                </div>
 
-                            <!-- </form> -->
+                                <!-- </form> -->
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
+        </section>
+    </div>
     <!-- ======= Footer ======= -->
 
     <div>
