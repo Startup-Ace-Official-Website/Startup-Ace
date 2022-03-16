@@ -1,6 +1,6 @@
 section.newsletter-bg {
     padding: 10px;
-    background-image: url(/assets/images/background2.png);
+    background-image: url('./assets/images/background2.png');
     background-size: cover;
 }
 

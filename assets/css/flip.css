@@ -1,9 +1,9 @@
 .flip-card {
     background-color: transparent;
-    width: 220px;
+    width: 230px;
     height: 300px;
     perspective: 1000px;
-    margin: 25px 50px;
+    margin: 25px 25px;
     cursor: pointer;
 }
 
