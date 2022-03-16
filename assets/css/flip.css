@@ -1,9 +1,9 @@
 .flip-card {
     background-color: transparent;
-    width: 300px;
-    height: 400px;
+    width: 220px;
+    height: 300px;
     perspective: 1000px;
-    margin: 25px 30px;
+    margin: 25px 35px;
     cursor: pointer;
 }
 
@@ -30,16 +30,16 @@
 }
 
 .flip-card-front {
-    width: 300px;
-    height: 400px;
+    width: 220px;
+    height: 300px;
     color: black;
     border-radius: 20px;
     box-shadow: 5px 5px 8px #e0e0e0;
 }
 
 .flip-card-back {
-    width: 300px;
-    height: 400px;
+    width: 235px;
+    height: 320px;
     color: white;
     border-radius: 20px;
     transform: rotateY(180deg);
@@ -47,7 +47,6 @@
     text-align: left;
     padding-left: 15px;
     padding-bottom: 15px;
-    font-size: 22px;
     animation: bg 15s ease infinite;
     background: linear-gradient(-45deg, #1c8ab3, #5bd8ee);
 }
@@ -72,5 +71,4 @@
     background: #ccc;
     text-align: center;
     color: #FFF;
-    font-size: 3em;
 }
