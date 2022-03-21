@@ -1,5 +1,5 @@
 .testimonial_095_slide>h5>a:hover {
-    border: 1px solid #aa914f
+    border: 1px solid #aa914f;
 }
 
 #testimonial_095 {
@@ -191,9 +191,6 @@
     color: #f2f2f2;
     font-size: 18px;
     line-height: 46px;
-    border: 3px solid #f2f2f2;
-    -webkit-border-radius: 100%;
-    border-radius: 100%
 }
 
 .testimonial_095_slide>a:after {
