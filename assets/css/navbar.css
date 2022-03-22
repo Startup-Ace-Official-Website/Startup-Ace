@@ -3,3 +3,13 @@
         display: none;
     }
 }
+
+nav .c2 .c1 ul li.active1 {
+    border-bottom: 1px solid blue;
+    border-bottom-width: 2px;
+    transition: 0.3s ease;
+}
+
+nav .c2 .c1 ul li.active1 a {
+    color: blue;
+}
