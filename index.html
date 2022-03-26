@@ -61,6 +61,10 @@
         height: 2px !important;
         padding-bottom: 15px;
     }
+    
+    #carouselExampleIndicators button {
+        letter-spacing: 2px;
+    }
 </style>
 
 <body>
@@ -98,8 +102,8 @@
                         <li class="nav-item home active1 mr-2">
                             <a class="nav-link" href="#home" style="color: #000; font-weight: 200;">Home <span class="sr-only"></span></a>
                         </li>
-                        <li class="nav-item About_Us mr-2">
-                            <a class="nav-link" href="#About_Us" style="color: #000; font-weight: 200;">About <span class="sr-only">(current)</span></a>
+                        <li class="nav-item about mr-2">
+                            <a class="nav-link" href="#about" style="color: #000; font-weight: 200;">About <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item Our_Services mr-2">
                             <a class="nav-link" href="#Our_Services" style="color: #000; font-weight: 200;">Services <span class="sr-only"></span></a>
@@ -162,135 +166,34 @@
             </div>
         </div>
     </section>
-    <section id="About_Us">
+    <section id="about" class="about">
         <div style="height: 20px;"></div>
         <div class="section-title1">
             <p>Who are we?</p>
             <h1>About Us</h1>
         </div>
-        <div style="height: 100px;"></div>
-        <div>
-            <div class="why-container">
-                <div data-aos="fade-up-left" data-aos-duration="5000">
-                    <div class="why-card">
-                        <div class="why-Box">
-                            <img src="./assets/images/Our Vision.webp">
-                        </div>
-                        <div class="why-details">
-                            <h2>Our Vision</h2>
-                            <p>To provide the best business services and become a standout player in the global marketplace by offering the best venture foundation to entrepreneurship visionaries and be a prime performer in the global marketplace.</p>
-                        </div>
-                    </div>
+        <div style="height: 200px;"></div>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-5 d-flex align-items-center justify-content-center about-img">
+                    <img src="./assets/images/about us.png" class="img-fluid" alt="">
                 </div>
-                <div data-aos="fade-up" data-aos-duration="5000">
-                    <div class="why-card">
-                        <div class="why-Box">
-                            <img src="./assets/images/Our Mission.jpg">
-                        </div>
-                        <div class="why-details">
-                            <h2>Our Mission</h2>
-                            <p>We deal with success on the basis of new and innovative minds who are willing to be a part of our journey and the ones who compel themselves to transform into premier brands.</p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-up-right" data-aos-duration="5000">
-                    <div class="why-card">
-                        <div class="why-Box">
-                            <img src="./assets/images/Our Plan.jpg">
-                        </div>
-                        <div class="why-details">
-                            <h2>Our Plan</h2>
-                            <p>Our intent is to pave a way for the enthusiastic minds, who are willing to be amongst the leading global entrepreneurs to connect with the experienced consultants and get the best team with an entrepreneurial mindset.</p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-left" data-aos-duration="5000">
-                    <div class="why-card">
-                        <div class="why-Box">
-                            <img src="./assets/images/Technologies.webp">
-                        </div>
-                        <div class="why-details">
-                            <h2>Techs We Use ?</h2>
-                            <p>
-                                <li>Boostrap</li>
-                                <li>PHP</li>
-                                <li>Python</li>
-                                <li>React.js</li>
-                                <li>Flask</li>
-                                <li>Laravel</li>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="why-hide" style=" width: 300px; height: 300px; text-align: center; font-weight: bold; font-size: 20px;" data-aos="zoom-in" data-aos-duration="1000">
-                    <h1 style="margin-top: 30%;">WHY WE ?</h1>
-                    <img src="./assets/images/startupAce.png" alt="" style="height: 100px; width: 150px;">
-                </div>
-                <div data-aos="fade-right" data-aos-duration="5000">
-                    <div class="why-card">
-                        <div class="why-Box">
-                            <img src="./assets/images/Core Values.webp">
-                        </div>
-                        <div class="why-details">
-                            <h2>Corporate Values</h2>
-                            <p>
-                                <li>Ingenious</li>
-                                <li>Persistent</li>
-                                <li>Confident</li>
-                                <li>Responsible</li>
-                                <li>Resilience</li>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-down-left" data-aos-duration="5000">
-                    <div class="why-card">
-                        <div class="why-Box">
-                            <img src="./assets/images/Industries.webp">
-                        </div>
-                        <div class="why-details">
-                            <h2>Industries we Target</h2>
-                            <p>
-                                <li>Healthcare</li>
-                                <li>Information Technology</li>
-                                <li>Wedding Photography</li>
-                                <li>E-Commerce</li>
-                                <li>Machine Learning & AI</li>
-                                <li>Food and Beverage Industry</li>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-down" data-aos-duration="5000">
-                    <div class="why-card">
-                        <div class="why-Box">
-                            <img src="./assets/images/Free Services.webp">
-                        </div>
-                        <div class="why-details">
-                            <h2>Free Services</h2>
-                            <p>
-                                <li>Free Business Consulting</li>
-                                <li>3 Months maintenance free</li>
-                                <li>Landing Page Content</li>
-                                <li>Free Domain & Hosting Service</li>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div data-aos="fade-down-right" data-aos-duration="5000">
-                    <div class="why-card">
-                        <div class="why-Box">
-                            <img src="https://images.pexels.com/photos/598917/pexels-photo-598917.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-                        </div>
-                        <div class="why-details">
-                            <h2>Lorem ipsum dolor</h2>
-                            <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                        </div>
-                    </div>
+                <div class="col-lg-6 pt-5 pt-lg-0">
+                    <p id="abt-desc" style="font-family: 'Nato Sans' ,sans-serif ;">
+                        We, the Startup Ace, offer you the best resources available to lay the foundation for your start-up. We believe in perfection and hence providing your company, a boost towards success is our primary aim.
+                    </p>
+                    <p id="abt-desc" style="font-family: 'Nato Sans' ,sans-serif ; font-size: 20px; font-weight: bold;">Wanna be a successful entrepreneur and boost your startup to success??</p>
+                    <p id="abt-desc" style="font-family: 'Nato Sans' ,sans-serif ;">If yes, we are here to help you out with the best facilities that include tech support, provision of experienced mentors and enthusiastic teams with the required skills and an entrepreneurial mindset. May it be web development services,
+                        sales and marketing, branding and other services, we've got everything you require for your startup business.
+                    </p>
+
+                    <!-- <a href='./about.html'><button class="button1" type="button1">Know More</button></a> -->
+
                 </div>
             </div>
         </div>
     </section>
+
     <section id="Our_Services">
         <div style="height: 20px;"></div>
         <div class="section-title1">
@@ -397,22 +300,23 @@
                     Join India's growing B2B platform
                 </div>
                 <div class="number-small-container">
-                    <div class="number-row">
-                        <div class="number-col-31">
+                    <div class="number-row d-flex align-items-center flex-column d-md-block">
+                        <div class="number-col-31 my-3 my-md-0">
                             <h2 style="margin: 0px; color: white; font-size: 54px; font-weight: bolder; text-align: center;"><span class="number-counter1" id="counter1">0</span>+</h2>
                             <h3 style="margin-left:0px; font-size: 18px; color: white; font-weight: 900; text-align: center;">Completed Projects</h3>
                         </div>
-                        <div class="number-col-32">
+                        <div class="number-col-32 my-3 my-md-0">
                             <h2 style="margin: 0px 0px 10px; color: white; font-size: 80px; font-weight: bolder; text-align: center;"><span class="number-counter2" id="counter2">0</span>+</h2>
                             <h3 style="margin: 0px; font-size: 18px; color: white; font-weight: 900; text-align: center;">Happy Clients</h3>
                         </div>
-                        <div class="number-col-33">
+                        <div class="number-col-33 my-3 my-md-0">
                             <h2 style="margin: 0px; color: white; font-size: 54px; font-weight: bolder; text-align: center;"><span class="number-counter3" id="counter3">0</span>%</h2>
                             <h3 style="margin: 0px; font-size: 18px; color: white; font-weight: 900; text-align: center;">Customer Satisfaction</h3>
                         </div>
+
                     </div>
                 </div>
-                <div class="number-regbut" style="text-align: center; margin-top: 50px;"><button type="button" class="btn btn-warning btn-lg subscribe-btn" style="font-size: 20px;">Register</button>
+                <div class="number-regbut" style="text-align: center; margin-top: 50px;"><button type="button" class="btn btn-warning btn-lg subscribe-btn" style="font-size: 20px; letter-spacing: 1.5px;">Register</button>
                 </div>
             </div>
         </div>-->
@@ -423,7 +327,7 @@
                 <div id="testimonial_095" class="carousel slide testimonial_095_indicators testimonial_095_control_button thumb_scroll_x swipe_x ps_easeOutSine" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
                     <!-- Header of Slider -->
                     <div class="testimonial_095_header">
-                        <h5>what people<span>say</span></h5>
+                        <h5>what people say</h5>
                     </div>
                     <!-- /Header of Slider -->
                     <!-- Indicators -->
@@ -564,6 +468,7 @@
                         </div>
                     </div>
                 </div>
+
 
             </div>
         </div>

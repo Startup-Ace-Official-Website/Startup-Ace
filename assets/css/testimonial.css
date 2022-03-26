@@ -117,7 +117,7 @@
 .testimonial_095_control_button .carousel-control-next:hover,
 .testimonial_095_control_button .carousel-control-prev:hover {
     color: #ffffff;
-    background: #1ed600;
+    background: #d2d600;
     border: 2px solid #ffffff
 }
 
@@ -225,7 +225,7 @@
 }
 
 .testimonial_095_slide>p>a {
-    color: #1ed600;
+    color: #d2d600;
     padding: 2px 5px;
     text-decoration: none;
     -webkit-transition: all .3s cubic-bezier(.39, .575, .565, 1);
