@@ -1354,7 +1354,7 @@ html {
     height: 80px;
 }
 
-.description {
+.description1 {
     width: 90%;
     display: flex;
     align-items: center;
@@ -1422,4 +1422,24 @@ html {
 
 .cards>.card {
     margin: auto;
+}
+
+@media only screen and (max-width: 790px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+    .card__wrapper h3 {
+        font-size: 20px;
+    }
+    .contact__heading h2 {
+        font-size: 45px !important;
+        width: 100% !important;
+    }
+    .card__wrapper {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
